@@ -1,0 +1,42 @@
+/* :root {
+    --pri-color;
+    --pri-font:;
+} */
+
+/* Footer Section Styling  */
+.foot-section{
+    width: 100%;
+    margin-top: 1%;
+    border: 2px solid black;
+    padding: 1% 2%;
+}
+
+/* Footer Content  */
+.foot-content{
+    width: 100%;
+    border: 2px solid red;
+    padding: 1% 0%;
+    display: flex;
+    align-items: center;
+    /* gap: 20px; */
+    justify-content: space-between;
+}
+
+/* Foot Section 1 Styling  */
+.foot-sec1{
+    width: 30%;
+    border: 2px solid black;
+    padding: 1%;
+}
+/* Foot Section 2 Styling  */
+.foot-sec2{
+    width: 30%;
+    border: 2px solid black;
+    padding: 1%;
+}
+/* Foot Section 3 Styling  */
+.foot-sec3{
+    width: 30%;
+    border: 2px solid black;
+    padding: 1%;
+}

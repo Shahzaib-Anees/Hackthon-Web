@@ -1,0 +1,64 @@
+/* :root {
+    --pri-color;
+    --pri-font:;
+} */
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Nav bar Styling  */
+.nav-bar{
+    border: 2px solid black;
+    padding: 1% 2%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-content{
+    border: 2px solid red;
+    width: 100%;
+    padding: 1% 0%;
+    display: flex;
+    align-items: center;
+    /* gap: 20px; */
+    justify-content: space-between;
+}
+
+/* Nav Logo Styling  */
+.nav-logo{
+    border: 2px solid black;
+    width: 10%;
+}
+
+/* Nav Links  */
+.nav-links{
+    border: 2px solid black;
+    width: 60%;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 30px;
+}
+
+.links{
+    padding: 0.3%;
+    border: 2px solid red;
+}
+
+.nav-links>.links>a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* Mob Visibility Menu  */
+.mob-visibility-menu{
+    display: none;
+}
