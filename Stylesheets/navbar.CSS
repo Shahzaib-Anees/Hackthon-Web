@@ -73,3 +73,7 @@ body {
     display: none;
 }
 
+.mob-visibility-menu>i{
+    color: #f5204b;
+}
+
