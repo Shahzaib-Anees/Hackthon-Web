@@ -1,4 +1,4 @@
-@media(min-width:200px) and (max-width:450px) {
+@media(min-width:200px) and (max-width:1000px) {
     .nav-links {
         display: none
     }
@@ -19,6 +19,7 @@
         height: 100%;
         display: flex;
         flex-direction: column;
+        height: fit-content;
     }
 
     .main-sec1-post-content {
@@ -28,9 +29,20 @@
 
     .main-sec1-header {
         width: 100%;
-        padding: 1%;
+        padding:6% 1%;
         gap: 30px;
         margin-bottom: 10%;
+        margin-left: 0%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-sec1-header>h3{
+        text-align: center;
+    }
+
+    .main-sec1-header>h2{
+        text-align: center;
     }
 
     /* Main Sec 2 image Container  */
