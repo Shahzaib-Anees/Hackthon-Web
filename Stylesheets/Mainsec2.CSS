@@ -60,14 +60,6 @@
     gap: 10px;
 }
 
-/* Main Sec 2 image Container  */
-.main-sec2-image-container{
-    width: 100%;
-}
-
-.main-sec2-image-container>img{
-    width: 100%;
-}
 
 .box>h4{
     font-family: var(--pri-font);

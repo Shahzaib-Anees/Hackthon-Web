@@ -33,6 +33,15 @@
         margin-bottom: 10%;
     }
 
+    /* Main Sec 2 image Container  */
+    .main-sec2-image-container {
+        width: 100%;
+    }
+
+    .main-sec2-image-container>img {
+        width: 100%;
+    }
+
     .main-sec2-head>h3 {
         margin: 0%;
         font-family: var(--pri-font);
@@ -61,7 +70,7 @@
         justify-content: center;
     }
 
-    .sec2-boxes>.box{
+    .sec2-boxes>.box {
         width: 80%;
         display: flex;
         align-items: center;
