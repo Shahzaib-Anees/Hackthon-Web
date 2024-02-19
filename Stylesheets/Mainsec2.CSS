@@ -1,0 +1,91 @@
+/* https://preview.colorlib.com/theme/sel/index.html#  */
+
+/* Main Section 2 Styling  */
+#main-sec2{
+    width: 100%;
+    padding: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+/* Main Sec2 Content  */
+.main-sec2-content{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 40px;
+}
+
+/* Main Sec 2 Head  */
+.main-sec2-head{
+    width: 50%;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-sec2-head>h3{
+    margin: 0%;
+    font-family: var(--pri-font);
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.main-sec2-head>p{
+    color: #b9b8b8;
+    text-transform: capitalize;
+}
+
+
+/* Section 2 Boxes  */
+.sec2-boxes{
+    width: 100%;
+    margin-top: 2%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.sec2-boxes>.box{
+    border: 2px solid #b9b8b8;
+    width: fit-content;
+    padding: 2.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Main Sec 2 image Container  */
+.main-sec2-image-container{
+    width: 100%;
+}
+
+.main-sec2-image-container>img{
+    width: 100%;
+}
+
+.box>h4{
+    font-family: var(--pri-font);
+    font-size: 2rem;
+    margin: 0%;
+}
+
+.box>p{
+    font-family: var(--pri-font);
+    color: #7777;
+    margin: 0%;
+    font-size: 1.3rem;
+}
+
+.box>i{
+    margin-left: 8%;
+    padding: 2%;
+    font-size: 1.5rem;
+    color: #f5204b;
+    /* text-align: center; */
+}
