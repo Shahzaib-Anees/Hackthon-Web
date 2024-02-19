@@ -20,42 +20,51 @@
         display: flex;
         flex-direction: column;
     }
-    .main-sec1-post-content{
+
+    .main-sec1-post-content {
         width: 100%;
         position: static;
     }
-    .main-sec1-header{
+
+    .main-sec1-header {
         width: 100%;
         padding: 1%;
         gap: 30px;
         margin-bottom: 10%;
     }
 
-    .main-sec2-head>h3{
+    .main-sec2-head>h3 {
         margin: 0%;
         font-family: var(--pri-font);
         font-size: 1.5rem;
         font-weight: 600;
     }
 
-    .main-sec2-content{
+    .main-sec2-content {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 40px;
-     }
+    }
 
-     .main-sec2-head{
+    .main-sec2-head {
         width: 100%;
     }
-     
+
     /* Section 2 Boxes  */
-.sec2-boxes{
-    padding: 0%;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
+    .sec2-boxes {
+        padding: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .sec2-boxes>.box{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
