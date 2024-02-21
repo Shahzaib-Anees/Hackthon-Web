@@ -1,0 +1,81 @@
+/* Main Sec 5 Styling  */
+#main-sec5{
+   padding: 1%;
+   padding-bottom: 6%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.main-sec5-header{
+   padding: 4% 0%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 15px;
+}
+
+
+.main-sec5-header>h3{
+   font-family: var(--pri-font);
+   font-size: 2.5rem;
+   margin: 0%;
+   line-height: 55px;
+}
+
+.main-sec5-header>p{
+   font-family: var(--pri-font);
+   font-family: 0.9rem;
+   color: #777777;
+   margin: 0%;
+   line-height: 25px;
+}
+
+.main-sec5-content{
+   width: 100%;
+   padding: 1%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 20px;
+}
+
+.sec5-img-box{
+   width: fit-content;
+   height: fit-content;
+   position: relative;
+}
+.sec5-img-box>img{
+   width: 100%;
+}
+
+.sec5-button{
+   background-color: #f5204b;
+   width: fit-content;
+   padding: 4% 10%;
+   text-align: center;
+   position: absolute;
+   bottom: 30px;
+   left: 28%
+}
+
+.sec5-button:hover{
+   background-color:#fff;
+   /* border:2px solid #f5204b; */
+}
+.sec5-button>a{
+   width: 100%;
+   height: 100%;
+   text-decoration: none;
+   color: #fff;
+   font-size: 0.9rem;
+   font-weight: 600;
+   font-family: var(--pri-font);
+}
+
+.sec5-button>a:hover{
+   color: #f5204b;
+}

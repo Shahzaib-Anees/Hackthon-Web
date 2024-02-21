@@ -1,0 +1,73 @@
+/* Main sec 6 Styling  */
+#main-sec6 {
+    background-color: #f9f9ff;
+    width: 100%;
+    padding: 4%;
+}
+
+/* Sec 6 Header  */
+.sec6-header {
+    padding: 1%;
+}
+
+.sec6-header>h3 {
+    font-family: var(--pri-font);
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 1%;
+}
+
+.sec6-header>p {
+    text-align: center;
+    color: #777777;
+    font-family: var(--pri-font);
+}
+
+/* Sec 6 Content  */
+.sec6-content {
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 3%;
+}
+
+.sec6-content>.content-box {
+    width: 350px;
+    background-color: #fff;
+    padding: 3%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+
+.content-box:hover {
+    background-color: #f5204b;
+    color: #fff;
+    transition: background-color 0.7s linear;
+}
+
+.content-box>span>i {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-right: 2%;
+}
+
+.content-box>h3 {
+    display: inline;
+    margin: 0%;
+    font-family: var(--pri-font);
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.content-box>p {
+    width: 100%;
+    margin: 0%;
+    margin-top: 5%;
+    /* color: #777777; */
+    font-family: var(--pri-font);
+    font-size: 0.9rem;
+    line-height: 20px;
+}

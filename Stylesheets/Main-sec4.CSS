@@ -46,7 +46,7 @@
     gap: 30px;
 }
 
-.sec4-content-box2>.sec6-imsge-box{
+.sec4-content-box2>.sec4-imsge-box{
     width: 50%;
     background-color: rgba(255, 255, 255, 0.1);;
     border-radius: 12px;
@@ -56,11 +56,11 @@
     align-items: center;
     color: #fff;
 }
-.sec6-imsge-box>img{
+.sec4-imsge-box>img{
     margin-bottom: 3%;
 }
 
-.sec6-imsge-box>p{
+.sec4-imsge-box>p{
     width: 90%;
     color: #999;
     font-family: var(--pri-font);
@@ -71,7 +71,7 @@
     margin-top: 3%;
 }
 
-.sec6-imsge-box>h5{
+.sec4-imsge-box>h5{
     font-family: var(--pri-font);
     font-size: 1.2rem;
     margin: 0%;
