@@ -1,0 +1,50 @@
+/* Main Sec 7 Styling  */
+#main-sec7 {
+    width: 100%;
+    padding: 6%;
+}
+
+.sec7-header {
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.sec7-header>h3 {
+    width: 100%;
+    font-family: var(--pri-font);
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0%;
+    line-height: 55px;
+}
+
+.sec7-header>p {
+    width: 60%;
+    text-align: center;
+    color: #777777;
+    font-family: var(--pri-font);
+    font-size: 0.9rem;
+    margin: 0%;
+    line-height: 22px;
+}
+.sec7-img-wrapper {
+    margin-top: 2%;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 120px;
+}
+
+.sec7-img-wrapper>img {
+    opacity: 0.8;
+}
+
+.sec7-img-wrapper>img:hover {
+    opacity: 1;
+}
+

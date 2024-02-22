@@ -50,7 +50,7 @@
 
 .content-box>span>i {
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 100;
     margin-right: 2%;
 }
 
@@ -71,3 +71,5 @@
     font-size: 0.9rem;
     line-height: 20px;
 }
+
+
