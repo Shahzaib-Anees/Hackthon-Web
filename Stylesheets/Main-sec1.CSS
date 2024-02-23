@@ -3,7 +3,7 @@
 /* Main Section 1 Styling  */
 #main-sec1 {
     padding: 1%;
-    height: 100vh;
+    height: 80vh;
     background-image: url('./../Clone-Images/hero-sec-bg-image.webp');
     background-repeat: no-repeat;
     background-size: cover;
@@ -71,13 +71,21 @@
 }
 
 /* Main Section 1 Poition Content  */
+.hero-form{
+    width: 50%;
+    /* border:2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+}
 .main-sec1-post-content {
-    width: 30%;
+    width: 68%;
     border-radius: 10px;
-    padding: 2% 3%;
+    padding: 6% 3%;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 35px;
     align-items: center;
     /* justify-content: center; */
     position: absolute;
@@ -88,7 +96,7 @@
 }
 .main-sec1-post-content>h3 {
     font-family: var(--pri-font);
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     margin: 0%;
 }
 
