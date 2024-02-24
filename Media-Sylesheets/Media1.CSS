@@ -1,11 +1,15 @@
 @media(min-width:200px) and (max-width:500px) {
+    * {
+        padding: 0%;
+    }
+
     /* Nav Links  */
     .nav-links {
-        width:100vw;
+        width: 100vw;
         height: 80vh;
         flex-direction: column;
-        justify-content: center; 
-        gap: 30px;     
+        justify-content: center;
+        gap: 30px;
         position: absolute;
         background-color: #fff;
         right: 0px;
@@ -16,23 +20,24 @@
         padding: 0%;
     }
 
-    .nav-links>.links{
+    .nav-links>.links {
         width: 100%;
-        padding:3% 2%;
+        padding: 3% 0%;
         border-bottom: 1px solid #777777;
     }
 
-    .links>a:hover{
+    .links>a:hover {
         font-size: 1.1rem;
     }
-   
-    .nav-links>.nav-icon{
-        padding: 3%;
+
+    .nav-links>.nav-icon {
+        padding: 3% 0%;
     }
+
     /* Mobile visibility Menu  */
     .mob-visibility-menu {
         display: inline-block;
-        padding: 2%;
+        padding: 2% 0%;
     }
 
     .mob-visibility-menu>#mob-menu-bars {
@@ -40,51 +45,65 @@
     }
 
     /* Main Section 1 content  */
+    #main-sec1 {
+        width: 100%;
+        height: fit-content;
+        padding: 10px 0px;
+    }
+
     .main-sec-1-content {
         width: 100%;
-        height: 100%;
+        height: fit-content;
         display: flex;
         flex-direction: column;
         height: fit-content;
+        padding: 0px 10px;
     }
 
-    .main-sec1-post-content {
+    /* Main Sec1 Header  */
+    .main-sec1-header {
         width: 100%;
+        padding: 30% 1%;
+        padding-bottom: 0%;
+        gap: 5px;
+        margin-bottom: 10%;
+        margin-left: 0%;
+        align-items: flex-start;
+    }
+
+    .main-sec1-header>h3 {
+        font-size: 1rem;
+        word-spacing: 7px;
+    }
+
+    .main-sec1-header>h2 {
+        font-size: 2rem;
+    }
+
+    /* Header Button  */
+    .header-button {
+        margin-top: 5%;
+    }
+
+    /* Hero Form  */
+    .hero-form {
+        width: 100%;
+        /* border:2px solid red; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .hero-sec-form {
+        width: 87%;
+        padding: 20px 10px;
         position: static;
     }
 
-    .main-sec1-header {
+    /* Section 2 Styling  */
+    .main-sec2-head {
         width: 100%;
-        padding:6% 1%;
-        gap: 30px;
-        margin-bottom: 10%;
-        margin-left: 0%;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .main-sec1-header>h3{
-        text-align: center;
-    }
-
-    .main-sec1-header>h2{
-        text-align: center;
-    }
-
-    /* Main Sec 2 image Container  */
-    .main-sec2-image-container {
-        width: 100%;
-    }
-
-    .main-sec2-image-container>img {
-        width: 100%;
-    }
-
-    .main-sec2-head>h3 {
-        margin: 0%;
-        font-family: var(--pri-font);
-        font-size: 1.5rem;
-        font-weight: 600;
     }
 
     .main-sec2-content {
@@ -96,8 +115,33 @@
         gap: 40px;
     }
 
+
     .main-sec2-head {
+        padding: 0px;
+        line-height: 22px;
+    }
+
+    .main-sec2-head>h3 {
+        margin: 0%;
+        font-family: var(--pri-font);
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .main-sec2-head>p {
+        font-size: 0.9rem;
+        color: black;
+        text-align: justify;
+    }
+
+    /* Main Sec 2 image Container  */
+    .main-sec2-image-container {
         width: 100%;
+    }
+
+    .main-sec2-image-container>img {
+        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
 
     /* Section 2 Boxes  */
@@ -109,8 +153,163 @@
     }
 
     .sec2-boxes>.box {
-        width: 80%;
+        width: 320px;
+        height: 160px;
         display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box>i {
+        margin: 0%;
+    }
+
+    /* Section  Stylings  */
+    #main-sec3 {
+        padding-bottom: 10%;
+        margin-bottom: 8%;
+    }
+
+    .main-sec3-header {
+        width: 100%;
+        /* padding: 2% 0%; */
+        gap: 25px;
+    }
+
+    .main-sec3-header>h3 {
+        font-size: 2em;
+        font-weight: 500;
+    }
+
+    .main-sec3-header>p {
+        color: black;
+        font-size: 0.8rem;
+        font-weight: 300;
+        line-height: 25px;
+    }
+
+    /* Sec 4 Styling  */
+    .main-sec4-content {
+        flex-direction: column;
+        padding: 25px 0px;
+    }
+
+    .sec4-content-box1 {
+        width: 90%;
+    }
+
+    .sec4-content-box1>h3 {
+        font-size: 2rem;
+    }
+
+    .sec4-content-box1>p {
+        font-size: 0.9rem;
+    }
+
+
+    /* Sec 2 Content Box 2  */
+    .sec4-content-box2 {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sec4-content-box2>.sec4-imsge-box {
+        width: 90%;
+    }
+
+    /* Main Sec 5 Styling  */
+    #main-sec5 {
+        padding: 10% 1%;
+    }
+
+
+    .main-sec5-header {
+        gap: 10px;
+        padding: 10% 0%;
+    }
+
+
+    .main-sec5-header>h3 {
+        font-size: 2rem;
+    }
+
+    .main-sec5-header>p {
+        width: 90%;
+        text-align: center;
+    }
+
+    /* Main Sec 6  */
+    #main-sec6 {
+        padding: 8% 4%;
+    }
+
+    /* Sec 6 Header  */
+    .sec6-header {
+        padding: 1%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .sec6-header>h3 {
+        font-size: 2rem;
+        text-align: center;
+        margin: 0%;
+    }
+
+    .sec6-header>p {
+        margin: 0%;
+    }
+
+    .sec6-content {
+        margin-top: 14%;
+    }
+
+    .sec6-content>.content-box {
+        width: 380px;
+        background-color: #fff;
+        padding: 15% 3%;
+    }
+
+    /* Main Sec 7 Styling  */
+    #main-sec7 {
+        width: 100%;
+        padding: 14% 6%;
+    }
+
+    .sec7-header>h3 {
+        font-size: 2rem;
+    }
+
+    .sec7-header>p {
+        width: 100%;
+    }
+
+    .sec7-img-wrapper {
+        margin-top: 14%;
+        padding: 1%;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    /* Footer Section Styling  */
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .foot-box{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .foot-box>.foot-content3-img-wrapper{
         align-items: center;
         justify-content: center;
     }

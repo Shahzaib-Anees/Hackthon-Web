@@ -48,7 +48,7 @@
     width: fit-content;
     /* border-color: #f5204b; */
     font-family: var(--pri-font);
-    padding: 1.5% 4%;
+    padding: 17px 50px;
     background-color: #f5204b;
     margin-top: 3%;
 }
@@ -62,7 +62,7 @@
     text-decoration: none;
     color: white;
     font-family: var(--pri-font);
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     width: 100%;
 }
 
@@ -70,38 +70,36 @@
     color: #f5204b;
 }
 
-/* Main Section 1 Poition Content  */
+/* Hero Section Form  */
 .hero-form{
     width: 50%;
-    /* border:2px solid red; */
     display: flex;
     align-items: center;
     justify-content: center;
     position:relative;
 }
-.main-sec1-post-content {
+.hero-sec-form {
     width: 68%;
     border-radius: 10px;
     padding: 6% 3%;
     display: flex;
     flex-direction: column;
-    gap: 35px;
+    gap: 25px;
     align-items: center;
-    /* justify-content: center; */
     position: absolute;
     right: 180px;
     bottom: -100px;
-    background-color: white;
+    background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.main-sec1-post-content>h3 {
+.hero-sec-form>h3 {
     font-family: var(--pri-font);
     font-size: 1.6rem;
     margin: 0%;
 }
 
 
-.main-sec1-post-content>.select{
+.hero-sec-form>.select{
     width: 100%;
     padding: 4%;
     font-family: var(--pri-font);

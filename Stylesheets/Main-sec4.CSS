@@ -1,10 +1,11 @@
 /* Main Section 4 Styling  */
 #main-sec4{
     width: 100%;
-    height: 70vh;
+    height: fit-content;
     border: 2px solid black;
     background-image: url('./../Clone-Images/sec4-bg-img.webp');
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .main-sec4-content{
@@ -33,6 +34,7 @@
 
 .sec4-content-box1>p{
     width: 90%;
+    color: #999999;
     font-family: var(--pri-font);
     font-size: 0.9rem;
     line-height: 22px;
